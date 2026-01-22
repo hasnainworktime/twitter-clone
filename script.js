@@ -11,7 +11,8 @@ function addTweet() {
     content: text,
     time: new Date().toLocaleString()
   };
-
+likes: 0
+};
   tweets.unshift(tweet);
   localStorage.setItem("tweets", JSON.stringify(tweets));
 
