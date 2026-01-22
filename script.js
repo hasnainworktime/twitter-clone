@@ -10,7 +10,6 @@ function addTweet() {
     user: "Muhammad Hasnain",
     content: text,
     time: new Date().toLocaleString()
- 
 };
   tweets.unshift(tweet);
   localStorage.setItem("tweets", JSON.stringify(tweets));
