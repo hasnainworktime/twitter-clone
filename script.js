@@ -36,3 +36,10 @@ function showTweets() {
 }
 
 showTweets();
+const tweet = {
+  id: Date.now(),
+  user: "Muhammad Hasnain",
+  content: text,
+  time: new Date().toLocaleString(),
+  likes: 0
+};
